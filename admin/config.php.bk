@@ -1,0 +1,36 @@
+<?php
+// HTTP
+define('HTTP_SERVER', 'http://duinopeak.com/shop/admin/');
+define('HTTP_CATALOG', 'http://duinopeak.com/shop/');
+
+// HTTPS
+define('HTTPS_SERVER', 'http://duinopeak.com/shop/admin/');
+define('HTTPS_CATALOG', 'http://duinopeak.com/shop/');
+
+// DIR
+define('DIR_APPLICATION', '/data/home/qyu1121700001/htdocs/shop/admin/');
+define('DIR_SYSTEM', '/data/home/qyu1121700001/htdocs/shop/system/');
+define('DIR_IMAGE', '/data/home/qyu1121700001/htdocs/shop/image/');
+define('DIR_STORAGE', '/data/home/qyu1121700001/storage/');
+define('DIR_CATALOG', '/data/home/qyu1121700001/htdocs/shop/catalog/');
+define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
+define('DIR_TEMPLATE', DIR_APPLICATION . 'view/template/');
+define('DIR_CONFIG', DIR_SYSTEM . 'config/');
+define('DIR_CACHE', DIR_STORAGE . 'cache/');
+define('DIR_DOWNLOAD', DIR_STORAGE . 'download/');
+define('DIR_LOGS', DIR_STORAGE . 'logs/');
+define('DIR_MODIFICATION', DIR_STORAGE . 'modification/');
+define('DIR_SESSION', DIR_STORAGE . 'session/');
+define('DIR_UPLOAD', DIR_STORAGE . 'upload/');
+
+// DB
+define('DB_DRIVER', 'mysqli');
+define('DB_HOSTNAME', 'qdm166416128.my3w.com');
+define('DB_USERNAME', 'qdm166416128');
+define('DB_PASSWORD', 'zl51230488');
+define('DB_DATABASE', 'qdm166416128_db');
+define('DB_PORT', '3306');
+define('DB_PREFIX', 'dp3oc_');
+
+// OpenCart API
+define('OPENCART_SERVER', 'https://www.opencart.com/');
